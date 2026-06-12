@@ -1,4 +1,6 @@
 # nasin pona
+If you'd like an English version, click [here](https://github.com/i-rember/nasin-pona/blob/main/README-EN.md).
+
 nasin pona li toki nasin pi sama toki pona. wile ni li ni: nasin li pona li wawa kepeken nimi pi toki pona.
 
 ## ijo
@@ -102,7 +104,7 @@ pini
 ```
 
 ## wawa
-sina ken kepeken sitelen pona kin!
+sina ken kepeken sitelen pona kin! sina pali e nasin nasin la sina ken ala pana e ni.
 (sitelen ni li ken lukin ike)
 ```
 󱤽󱦐󱤌󱦑󱤧󱤂
