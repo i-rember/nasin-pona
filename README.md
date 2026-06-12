@@ -103,6 +103,26 @@ la
 pini
 ```
 
+## nasin
+nasin li ken lon kepeken ni:
+```
+nasin add(nanpa a, nanpa b)
+  o pana e ni: a wan b
+pini
+```
+
+nasin li lon kin tan ni:
+```
+nasin add li nasin(nanpa a, nanpa b)
+  o pana e ni: a wan b
+pini
+```
+
+anu ni:
+```
+nasin add li nasin(nanpa a, nanpa b): a wan b
+```
+
 ## wawa
 sina ken kepeken sitelen pona kin! sina pali e nasin nasin la sina ken ala pana e ni.
 (sitelen ni li ken lukin ike)
