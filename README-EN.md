@@ -103,6 +103,26 @@ la
 pini
 ```
 
+## Functions
+Functions are created like this:
+```
+nasin add(nanpa a, nanpa b)
+  o pana e ni: a wan b
+pini
+```
+
+You can also define them inline:
+```
+nasin add li nasin(nanpa a, nanpa b)
+  o pana e ni: a wan b
+pini
+```
+
+or as a lambda:
+```
+nasin add li nasin(nanpa a, nanpa b): a wan b
+```
+
 ## Additional features
 You can also use sitelen pona! This is optional when writing an interpreter/compiler.
 (this may not appear correctly)
