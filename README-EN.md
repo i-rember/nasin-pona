@@ -7,40 +7,40 @@ nasin pona is a programming language based on toki pona. Its goal is to make cod
 Variables are created with this syntax:
 ```
 nanpa N li tu wan -- you can also use numerals explicitly
-nimi S li "toki"
+nimi S li "hello"
 lon B li lon
 ```
 
 Variables can be reassigned like so:
 ```
 N li luka
-S li "pona"
+S li "welcome"
 B li ala
 ```
 
 ## I/O
 The program can print to the console like so:
 ```
-o toki e "toki a, ma o!"
+o toki e "Hello, world!"
 ```
 
 You can also output variables.
 ```
 o toki e N -- "luka"; if the variable was assigned with an explicit numeral, a numeral is printed
-o toki e S -- "pona"
+o toki e S -- "welcome"
 o toki e B -- "ala"
 ```
 
 You can print multiple values like so:
 ```
-o toki e ni: "sina li jo e mani" N
+o toki e ni: "You have " N " coins"
 ```
 
 The program can ask for input like so:
 ```
-S li kama jo: "nimi sina li seme? "
-N li kama jo: "sina jo e tenpo sike seme? "
-B li kama jo: "sina pona ala pona? "
+S li kama jo: "What's your name? "
+N li kama jo: "How old are you? "
+B li kama jo: "Are you feeling good? "
 ```
 
 ## Mathematics
@@ -71,16 +71,16 @@ The word "la" is used for conditionals and loops.
 This is equivalent to "if":
 ```
 a sama b la
-  o toki e "sama"
+  o toki e "equal"
 pini
 ```
 
 This is equivalent to "if-else":
 ```
 a sama b la
-  o toki e "sama"
+  o toki e "equal"
 ante la
-  o toki e "ante"
+  o toki e "unequal"
 pini
 ```
 
